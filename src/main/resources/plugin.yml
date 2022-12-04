@@ -1,0 +1,4 @@
+name: AutomaticWelcome
+version: '1.3'
+main: huanmeng.automaticwelcome.AutomaticWelcome
+api-version: 1.19
