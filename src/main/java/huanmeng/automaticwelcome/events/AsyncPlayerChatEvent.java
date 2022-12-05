@@ -54,9 +54,5 @@ public class AsyncPlayerChatEvent implements Listener {
             Player chatsay10 = say.getPlayer();
             chatsay10.sendMessage(ChatColor.YELLOW +plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
-        if (say.getMessage().contains("ban")){
-            Player chatsay11 = say.getPlayer();
-            chatsay11.kickPlayer(ChatColor.RED + plugin.getConfig().getString("Kick"));
-        }
     }
 }
