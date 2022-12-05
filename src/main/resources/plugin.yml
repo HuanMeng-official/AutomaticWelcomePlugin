@@ -1,4 +1,7 @@
 name: AutomaticWelcome
-version: '1.4'
+version: '1.6'
 main: huanmeng.automaticwelcome.AutomaticWelcome
 api-version: 1.19
+commands:
+  automatic:
+    description: Check if the plugin is started
