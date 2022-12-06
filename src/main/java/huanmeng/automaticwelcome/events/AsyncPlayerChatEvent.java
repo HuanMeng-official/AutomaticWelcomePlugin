@@ -12,47 +12,63 @@ public class AsyncPlayerChatEvent implements Listener {
     public void AsyncPlayerChatEvent(org.bukkit.event.player.AsyncPlayerChatEvent say){
         if (say.getMessage().contains("sb")) {
             Player chatsay = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("傻逼")) {
             Player chatsay1 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay1.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("几把")) {
             Player chatsay2 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay2.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("他妈")) {
             Player chatsay3 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay3.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("你妈死了")) {
             Player chatsay4 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay4.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("操你妈")) {
             Player chatsay5 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay5.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("脑瘫")) {
             Player chatsay6 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay6.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("fuck")) {
             Player chatsay7 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay7.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("神经病")){
             Player chatsay8 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay8.sendMessage(ChatColor.YELLOW +plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("屎")){
             Player chatsay9 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay9.sendMessage(ChatColor.YELLOW +plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
         if (say.getMessage().contains("你妈")){
             Player chatsay10 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
             chatsay10.sendMessage(ChatColor.YELLOW +plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
+        }
+        if (say.getMessage().contains("我操")){
+            Player chatsay11 = say.getPlayer();
+            say.setCancelled(plugin.getConfig().getBoolean("PlayChatEvent"));
+            chatsay11.sendMessage(ChatColor.YELLOW +plugin.getConfig().getString("Characters") + ChatColor.RED + plugin.getConfig().getString("Alert"));
         }
     }
 }
