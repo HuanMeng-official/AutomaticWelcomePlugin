@@ -1,5 +1,4 @@
 # 🤔什么是AutomaticWelcomePlugin？
-==
 **AutomaticWelcome是由幻梦个人开发的萌娘插件**
 ==
 😲我该怎么使用它？
