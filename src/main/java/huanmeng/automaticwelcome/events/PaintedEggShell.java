@@ -15,11 +15,18 @@ public class PaintedEggShell implements Listener {
     public void PaintedEggShell(AsyncPlayerChatEvent egg){
         if (egg.getMessage().contains(Objects.requireNonNull(plugin.getConfig().getString("PaintEggWord-1")))) {
             Player egg1 = egg.getPlayer();
-            egg1.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("EggCharacters") + ChatColor.WHITE + plugin.getConfig().getString("PEgg-one"));
+            egg.setCancelled(plugin.getConfig().getBoolean("PaintEgg"));
+            egg1.sendMessage(ChatColor.LIGHT_PURPLE + plugin.getConfig().getString("EggCharacters") + ChatColor.WHITE + plugin.getConfig().getString("PEgg-one"));
         }
         if (egg.getMessage().contains(Objects.requireNonNull(plugin.getConfig().getString("PaintEggWord-2")))) {
             Player egg2 = egg.getPlayer();
-            egg2.sendMessage(ChatColor.YELLOW + plugin.getConfig().getString("EggCharacters") + ChatColor.WHITE + plugin.getConfig().getString("PEgg-two"));
+            egg.setCancelled(plugin.getConfig().getBoolean("PaintEgg"));
+            egg2.sendMessage(ChatColor.LIGHT_PURPLE + plugin.getConfig().getString("EggCharacters") + ChatColor.WHITE + plugin.getConfig().getString("PEgg-two"));
+        }
+        if (egg.getMessage().contains(Objects.requireNonNull(plugin.getConfig().getString("PaintEggWord-3")))) {
+            Player egg3 = egg.getPlayer();
+            egg.setCancelled(plugin.getConfig().getBoolean("PaintEgg"));
+            egg3.sendMessage(ChatColor.LIGHT_PURPLE + plugin.getConfig().getString("EggCharacters") + ChatColor.WHITE + plugin.getConfig().getString("PEgg-three"));
         }
     }
 }
