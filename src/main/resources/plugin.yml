@@ -1,5 +1,5 @@
 name: AutomaticWelcome
-version: '1.8'
+version: '2.2'
 main: huanmeng.automaticwelcome.AutomaticWelcome
 api-version: 1.19
 commands:

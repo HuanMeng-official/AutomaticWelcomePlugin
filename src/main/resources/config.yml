@@ -1,9 +1,12 @@
 #插件作者：幻梦official
 #该插件禁止任何倒卖！
-#开源地址: https://github.com/huanmeng-official/
+#开源地址: https://github.com/HuanMeng-official/AutomaticWelcomePlugin
+#插件配置：false（关闭）  true（开启）
 
 #脏话屏蔽开关
-PlayChatEvent: true
+PlayChatEvent: false
+#彩蛋触发语句拦截（不在聊天栏显示，依旧触发彩蛋）
+PaintEgg: false
 
 #该项为欢迎人物
 Characters: '[幻梦娘]'
@@ -23,6 +26,10 @@ PaintEggWord-1: '彩蛋'
 #该项为彩蛋内容 #1
 PEgg-one: '恭喜你触发了彩蛋，但毫无卵用'
 #该项为彩蛋触发关键词 #2
-PaintEggWord-2: '开摆'
+PaintEggWord-2: '彩蛋'
 #该项为彩蛋内容 #2
 PEgg-two: '恭喜你触发了彩蛋，但毫无卵用'
+#该项为彩蛋触发关键词 #3
+PaintEggWord-3: '彩蛋'
+#该项为彩蛋内容 #3
+PEgg-three: '恭喜你触发了彩蛋，但毫无卵用'
