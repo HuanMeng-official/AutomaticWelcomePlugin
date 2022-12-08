@@ -28,5 +28,10 @@ public class PaintedEggShell implements Listener {
             egg.setCancelled(plugin.getConfig().getBoolean("PaintEgg"));
             egg3.sendMessage(ChatColor.LIGHT_PURPLE + plugin.getConfig().getString("EggCharacters") + ChatColor.WHITE + plugin.getConfig().getString("PEgg-three"));
         }
+        if (egg.getMessage().contains(Objects.requireNonNull(plugin.getConfig().getString("PaintEggWord-4")))) {
+            Player egg4 = egg.getPlayer();
+            egg.setCancelled(plugin.getConfig().getBoolean("PaintEgg"));
+            egg4.sendMessage(ChatColor.LIGHT_PURPLE + plugin.getConfig().getString("EggCharacters") + ChatColor.WHITE + plugin.getConfig().getString("PEgg-four"));
+        }
     }
 }
