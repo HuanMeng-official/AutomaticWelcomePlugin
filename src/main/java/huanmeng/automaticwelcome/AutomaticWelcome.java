@@ -10,7 +10,7 @@ public final class AutomaticWelcome extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println("[Automatic welcome]正在加载");
+        System.out.println("插件正在加载");
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(new PlayerJoinEvent(),this);
@@ -24,7 +24,7 @@ public final class AutomaticWelcome extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        System.out.println("[Automatic welcome]正在关闭");
-        System.out.println("[Automatic welcome]成功关闭");
+        System.out.println("插件正在关闭");
+        System.out.println("插件成功关闭");
     }
 }
