@@ -1,5 +1,5 @@
 package huanmeng.automaticwelcome;
-import huanmeng.automaticwelcome.commands.AutomaticWelcomeCommands;
+import huanmeng.automaticwelcome.commands.*;
 import huanmeng.automaticwelcome.events.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -19,6 +19,9 @@ public final class AutomaticWelcome extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new AsyncPlayerChatEvent(),this);
         getServer().getPluginManager().registerEvents(new PaintedEggShell(),this);
         Objects.requireNonNull(getCommand("automatic")).setExecutor(new AutomaticWelcomeCommands());
+        Objects.requireNonNull(getCommand("gm0")).setExecutor(new SetSurvival());
+        Objects.requireNonNull(getCommand("gm1")).setExecutor(new SetCreative());
+        Objects.requireNonNull(getCommand("gm3")).setExecutor(new SetSpectator());
     }
 
     @Override
