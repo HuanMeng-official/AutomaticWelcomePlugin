@@ -1,7 +1,13 @@
 name: AutomaticWelcome
-version: '1.0-r3'
+version: '2.0-r1'
 main: huanmeng.automaticwelcome.AutomaticWelcome
 api-version: 1.19
 commands:
   automatic:
     description: Check if the plugin is started
+  gm0:
+    description: Set Player Game Mode Survival
+  gm1:
+    description: Set Player Game Mode Creative
+  gm3:
+    description: Set Player Game Mode Spectator
