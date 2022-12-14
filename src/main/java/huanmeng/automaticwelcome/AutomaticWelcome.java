@@ -21,6 +21,7 @@ public final class AutomaticWelcome extends JavaPlugin {
         Objects.requireNonNull(getCommand("automatic")).setExecutor(new AutomaticWelcomeCommands());
         Objects.requireNonNull(getCommand("gm0")).setExecutor(new SetSurvival());
         Objects.requireNonNull(getCommand("gm1")).setExecutor(new SetCreative());
+        Objects.requireNonNull(getCommand("gm2")).setExecutor(new SetAdventure());
         Objects.requireNonNull(getCommand("gm3")).setExecutor(new SetSpectator());
     }
 
