@@ -1,5 +1,5 @@
 name: AutomaticWelcome
-version: '2.0-r1'
+version: '2.0-r2'
 main: huanmeng.automaticwelcome.AutomaticWelcome
 api-version: 1.19
 commands:
@@ -9,5 +9,7 @@ commands:
     description: Set Player Game Mode Survival
   gm1:
     description: Set Player Game Mode Creative
+  gm2:
+    description: Set Player Game Mode Adventure
   gm3:
     description: Set Player Game Mode Spectator
