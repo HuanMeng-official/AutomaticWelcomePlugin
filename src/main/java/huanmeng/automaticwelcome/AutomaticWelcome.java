@@ -1,6 +1,7 @@
 package huanmeng.automaticwelcome;
 import huanmeng.automaticwelcome.commands.*;
 import huanmeng.automaticwelcome.events.*;
+import huanmeng.automaticwelcome.painteggshell.*;
 import huanmeng.automaticwelcome.says.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
