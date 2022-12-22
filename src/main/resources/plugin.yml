@@ -2,7 +2,11 @@ name: AutomaticWelcome
 version: '${project.version}'
 main: huanmeng.automaticwelcome.AutomaticWelcome
 api-version: 1.16
+depend:
+  - PlaceholderAPI
 commands:
+  tps:
+    description: Viewer the server tps
   automatic:
     description: Check if the plugin is started
   gm0:
