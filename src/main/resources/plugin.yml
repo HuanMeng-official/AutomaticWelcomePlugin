@@ -2,11 +2,11 @@ name: AutomaticWelcome
 version: '${project.version}'
 main: huanmeng.automaticwelcome.AutomaticWelcome
 api-version: 1.16
-depend:
+softdepend:
   - PlaceholderAPI
 commands:
   tps:
-    description: Viewer the server tps
+    description: Viewer the server TPS
   automatic:
     description: Check if the plugin is started
   gm0:
@@ -17,3 +17,7 @@ commands:
     description: Set Player Game Mode Adventure
   gm3:
     description: Set Player Game Mode Spectator
+permissions:
+  aw.huanmeng.op:
+    description: Permission
+    default: op
