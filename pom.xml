@@ -6,7 +6,7 @@
 
     <groupId>HuanMeng_</groupId>
     <artifactId>AutomaticWelcome</artifactId>
-    <version>5.0-r1</version>
+    <version>6.0-r1</version>
     <packaging>jar</packaging>
 
     <name>AutomaticWelcome</name>
