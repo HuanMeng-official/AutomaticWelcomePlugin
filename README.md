@@ -8,7 +8,3 @@
 🧐我怎么配置它？
 ==
 **修改AutomaticWelcome文件夹中的config.yml**
-==
-🤯What should I do if I can't read Chinese?
-==
-**I can't help it. My English is very poor.**
