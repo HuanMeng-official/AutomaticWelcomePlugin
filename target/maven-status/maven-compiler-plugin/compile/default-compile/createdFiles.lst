@@ -1,0 +1,13 @@
+huanmeng\mengpluginx\Commands\SetSpectator.class
+huanmeng\mengpluginx\Commands\SetCreative.class
+huanmeng\mengpluginx\MengPluginX.class
+huanmeng\mengpluginx\Worlds\StemWords.class
+huanmeng\mengpluginx\PlaceholderAPI\GetPlayerPing.class
+huanmeng\mengpluginx\PlayerEvents\PlayerBedLeaveEvent.class
+huanmeng\mengpluginx\Commands\MengPluginXCommands.class
+huanmeng\mengpluginx\Worlds\DirtyWords.class
+huanmeng\mengpluginx\PlaceholderAPI\GetServerTPS.class
+huanmeng\mengpluginx\PlayerEvents\PlayerBedEnterEvent.class
+huanmeng\mengpluginx\Commands\SetAdventure.class
+huanmeng\mengpluginx\Commands\SetSurvival.class
+huanmeng\mengpluginx\PlayerEvents\PlayerJoinEvent.class
